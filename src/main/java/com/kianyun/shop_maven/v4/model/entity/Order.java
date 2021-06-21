@@ -1,4 +1,4 @@
-package com.kianyun.shop_maven.v3;
+package com.kianyun.shop_maven.v4.model.entity;
 
 import com.kianyun.shop_maven.v1.model.entity.OrderStatus;
 import lombok.Getter;
@@ -23,7 +23,7 @@ import java.util.List;
 @Setter
 @Entity
 @Table(name = "ORDERS")
-public class Order {
+public class Order extends BaseEntity {
     @Id
     @GeneratedValue
     @Column(name = "ORDER_ID")

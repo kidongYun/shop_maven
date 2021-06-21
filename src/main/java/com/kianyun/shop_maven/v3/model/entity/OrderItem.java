@@ -1,4 +1,4 @@
-package com.kianyun.shop_maven.v3;
+package com.kianyun.shop_maven.v3.model.entity;
 
 import lombok.Getter;
 import lombok.Setter;

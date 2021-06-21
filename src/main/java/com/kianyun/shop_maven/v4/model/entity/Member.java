@@ -1,4 +1,4 @@
-package com.kianyun.shop_maven.v3;
+package com.kianyun.shop_maven.v4.model.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -14,10 +14,10 @@ import java.util.List;
 @Getter
 @Setter
 @Entity
-public class Member {
+public class Member extends BaseEntity {
     @Id
     @GeneratedValue
-    @Column(name = "MEMBER_ID")
+    @Column(name = "MEMER_ID")
     private Long id;
 
     private String name;

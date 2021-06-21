@@ -1,5 +1,6 @@
-package com.kianyun.shop_maven.v3;
+package com.kianyun.shop_maven.v4.model.entity;
 
+import com.kianyun.shop_maven.v3.model.entity.DeliveryStatus;
 import lombok.Getter;
 import lombok.Setter;
 
